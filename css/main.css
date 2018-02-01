@@ -1,0 +1,144 @@
+body {
+    margin:0; 
+    padding:0;
+    background: #f9f9f9;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #f5f5f5; 
+    font-size: 12px;
+    line-height: 1.6;
+    font-weight: 300; 
+    letter-spacing: 0px;
+    overflow-x:hidden;
+    height:100%;
+}
+
+
+/**
+Utilities & Typography
+*-----------------------------------------------------------*/
+
+a {
+    color: #4a8bd0;
+    outline: none !important;
+}
+a:hover, a:link, a:active {
+    outline: none !important;
+}
+
+.btn-outline-inverse {
+    background-color: transparent;
+    border-color: #f5f5f5;
+    color: #fff;
+}
+
+h1,h2,h3,h4,h5,h6 { 
+    text-transform: uppercase;
+    color: #999;
+}
+
+h1 { 
+    font-size: 24px; 
+    line-height:35px; 
+}
+
+h2 { 
+    font-size: 21px;  
+    line-height:28px; 
+}
+
+h3 { 
+    font-size: 18px; 
+    line-height:25px; 
+}
+
+h4 { 
+    font-size: 14px;
+    line-height: 20px; 
+    margin-bottom:10px; 
+}
+
+h5 { 
+    font-size: 15px; 
+    line-height:22px; 
+    margin-bottom:10px; 
+}
+
+h6 { 
+    font-size: 13px; 
+    margin-bottom:10px; 
+}
+
+.lead {
+    font-size: 18px;    
+}
+
+.title-divider {
+    text-align:left;
+    position: relative;
+    border-bottom: #e8e8e8 1px solid;
+    padding-bottom: 6px;
+    margin: 0 0 10px;
+    padding: 6px 0;
+}
+
+.title-divider span {
+    position: absolute;
+    width: 80px;
+    height: 1px;
+    bottom: -1px;
+    left: 0;
+    background: #4a8bd0; 
+}
+
+/* Colours */
+.hue {color:#B95835; }
+.red {color:#F67F54; }
+.white { color:#fff; }
+.black { color:#333; }
+.grey { color:#999; }
+.grey a:hover { color:#bbb; }
+.purple {color: #7A2961;}
+
+.bg-grey { background: #303030; }
+.bg-white { background: #fff; }
+.bg-white p, .bg-white ul li { color: #333;}
+.bg-purple { background: #6C4D80; }
+
+/* Padding */
+.pad60 { padding-top:60px; }
+.pad45 { padding-top:45px; }
+.pad30 { padding-top:30px; }
+.pad25 { padding-top:25px; }
+.pad15 { padding-top:15px; }
+.pad10 { padding-top:10px; }
+.pad5 { padding-top:5px; }
+
+/* Margins */
+.marg-left10 { margin-left:10px; }
+.marg-right10 { margin-right:-10px; }
+.marg-left-minus5 { margin-left:-5px; }
+.marg-top15 { margin-top:15px; }
+.marg-top-minus5 { margin-top:-5px; }
+.marg-bottom5 { margin-bottom:5px; }
+
+.inner-padding {
+    padding: 20px;
+    padding: 10px;
+}
+
+header {
+    padding: 10px 0;
+    color: #fff;
+}
+header a {
+    color: #fff;
+}
+.menu {
+    padding-top: 15px;
+}
+
+section {
+    min-height: 100px;
+    padding: 30px 0;
+}
+
